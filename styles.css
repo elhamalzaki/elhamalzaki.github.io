@@ -1,7 +1,8 @@
+
 body {
   padding-top: 50px;
 }
-.starter-template {
+.styles {
   padding: 40px 15px;
   text-align: center;
 }
@@ -17,7 +18,7 @@ img{
 }
 
 .image{
-	float: left;
+	float: inherit;
 	width: auto;
 	
 }
@@ -26,6 +27,3 @@ img{
 	font-size: .6em;
 }
 
-.recipesTxt{
-	text-align: left;
-}
