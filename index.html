@@ -60,6 +60,47 @@
 		
 	  <p align="left"><br><br>Source 1:<a href="https://en.wikipedia.org/wiki/Malcolm_in_the_Middle">Wikipedia</a></br></br></p>
     <p align="left">Source 2:<a href="http://www.imdb.com/title/tt0212671/plotsummary">IMDb</a></p>
+	
+<div id="page">
+
+    <h1>Google Powered Site Search</h1>
+    
+    <form id="searchForm" method="post">
+		<fieldset>
+        
+           	<input id="s" type="text" />
+            
+            <input type="submit" value="Submit" id="submitButton" />
+            
+            <div id="searchInContainer">
+                <input type="radio" name="check" value="site" id="searchSite" checked />
+                <label for="searchSite" id="siteNameLabel">Search</label>
+                
+                <input type="radio" name="check" value="web" id="searchWeb" />
+                <label for="searchWeb">Search The Web</label>
+			</div>
+                        
+            <ul class="icons">
+                <li class="web" title="Web Search" data-searchType="web">Web</li>
+                <li class="images" title="Image Search" data-searchType="images">Images</li>
+                <li class="news" title="News Search" data-searchType="news">News</li>
+                <li class="videos" title="Video Search" data-searchType="video">Videos</li>
+            </ul>
+            
+        </fieldset>
+    </form>
+
+    <div id="resultsDiv"></div>
+    
+</div>
+
+<!-- It would be great if you leave the link back to the tutorial. Thanks! -->
+<p class="credit"><a href="http://tutorialzine.com/2010/09/google-powered-site-search-ajax-jquery/">Powered by Tzine &amp; Google</a></p>
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="script.js"></script>
+									      
+										      
       </div>
 	  <footer>
 	  <p align="left"><a href ="contact.html">Elham Alzaki</a> 2016</p>
